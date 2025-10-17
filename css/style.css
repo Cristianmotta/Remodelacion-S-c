@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(to right, rgb(151, 150, 150), rgb(49, 69, 73) );
+}
+
+h1{
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    background: linear-gradient(to right, rgb(210, 209, 209), rgb(167, 192, 202));
+    padding: 10px;
+    margin-bottom: 100px;
+    min-height: 100px;
+    border-radius: 8px;
+}
+
+.item{
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    background: linear-gradient(at top left, rgb(210, 209, 209), rgb(167, 192, 202));
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.item:hover{
+    cursor: pointer;
+    background:  rgb(167, 192, 202);
+    transition: 1s;;
+    transition: 1.1;
+    border-radius: 20px;
+}
+
+.grow{
+    flex-grow: 2;
+    margin: 2rem;
+    padding: 3rem;
+}
