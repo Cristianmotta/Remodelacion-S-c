@@ -32,14 +32,12 @@ h1{
     margin: 5px;
     text-align: center;
     background: linear-gradient(at top left, rgb(210, 209, 209), rgb(167, 192, 202));
-    transition: 1s;
     border-radius: 10px;
 }
 
 .item:hover{
     cursor: pointer;
     background:  rgb(167, 192, 202);
-    transform: scale(1.1);
     border-radius: 20px;
 }
 
